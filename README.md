@@ -4,7 +4,7 @@ The Stroke Prediction Pipeline was a machine learning project developed to predi
 
 The project was built using Python and leveraged libraries such as scikit-learn, xgboost, tensorflow, imbalanced-learn, and shap. 
 
-Features
+# Features
 Dataset: Processed brain_stroke.csv (4,981 samples, 11 features, binary target stroke).
 
 Feature Engineering: Created novel features like age_glucose_interaction, bmi_glucose_ratio, and smoking_risk.
@@ -18,13 +18,11 @@ Explainability: Integrated SHAP and LIME for global and local prediction insight
 
 Visualizations: Included confusion matrices, ROC curves, class distribution plots, pair plots, histograms, boxplots, correlation matrices, and a Plotly dashboard.
 
-Requirements
+# Requirements
 Python: 3.11
 Libraries:
 pandas, numpy
-
 scikit-learn==1.2.2
-
 xgboost==2.0.0
 
 tensorflow==2.15
