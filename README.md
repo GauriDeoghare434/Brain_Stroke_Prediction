@@ -21,4 +21,3 @@ xgboost==2.0.0
 tensorflow==2.15
 imbalanced-learn, shap, optuna
 seaborn, matplotlib, plotly
-Optional: Docker (for containerized deployment), GPU (for DNN training)
