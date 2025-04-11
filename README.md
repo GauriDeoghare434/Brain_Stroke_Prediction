@@ -30,3 +30,7 @@ tensorflow==2.15
 imbalanced-learn, shap, optuna
 
 seaborn, matplotlib, plotly
+Install dependencies using:
+***sh
+pip install -r requirements.txt
+***
