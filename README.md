@@ -6,14 +6,21 @@ The project was built using Python and leveraged libraries such as scikit-learn,
 
 Features
 Dataset: Processed brain_stroke.csv (4,981 samples, 11 features, binary target stroke).
+
 Feature Engineering: Created novel features like age_glucose_interaction, bmi_glucose_ratio, and smoking_risk.
 Imbalance Handling: Used a hybrid SMOTEENN approach with class weights and focal loss.
+
 Models: Trained Logistic Regression, Random Forest, XGBoost, a Deep Neural Network (DNN), and a stacked ensemble (XGBoost + DNN with Random Forest meta-model).
+
 Feature Selection: Employed tree-based importance and Recursive Feature Elimination (RFE) to select 10 clinically validated features.
+
 Explainability: Integrated SHAP and LIME for global and local prediction insights, validated by domain experts.
+
 Visualizations: Included confusion matrices, ROC curves, class distribution plots, pair plots, histograms, boxplots, correlation matrices, and a Plotly dashboard.
+
 Requirements
 Python: 3.11
+
 Libraries:
 pandas, numpy
 scikit-learn==1.2.2
