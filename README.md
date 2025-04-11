@@ -2,7 +2,7 @@
 Overview
 The Stroke Prediction Pipeline was a machine learning project developed to predict stroke risk using the brain_stroke.csv dataset. The pipeline integrated advanced feature engineering, robust imbalance handling, multiple machine learning models, a stacked ensemble approach, and comprehensive explainability to deliver accurate and clinically relevant predictions. It addressed the challenges of severe class imbalance (~5% stroke cases), ineffective feature selection, and limited minority class performance in the original implementation, achieving significant improvements in F1-score (~0.6 for stroke == 1) and AUC (~0.87).
 
-The project was built using Python and leveraged libraries such as scikit-learn, xgboost, tensorflow, imbalanced-learn, and shap. The final pipeline was containerized with Docker for scalability and included interactive visualizations via a Plotly dashboard.
+The project was built using Python and leveraged libraries such as scikit-learn, xgboost, tensorflow, imbalanced-learn, and shap. 
 
 Features
 Dataset: Processed brain_stroke.csv (4,981 samples, 11 features, binary target stroke).
@@ -20,11 +20,15 @@ Visualizations: Included confusion matrices, ROC curves, class distribution plot
 
 Requirements
 Python: 3.11
-
 Libraries:
 pandas, numpy
+
 scikit-learn==1.2.2
+
 xgboost==2.0.0
+
 tensorflow==2.15
+
 imbalanced-learn, shap, optuna
+
 seaborn, matplotlib, plotly
